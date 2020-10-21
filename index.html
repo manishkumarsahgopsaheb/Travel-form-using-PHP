@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <img src="NIT_Patna.png" class="logo">
+        <br>
+        <h1>NIT Patna London Trip Form</h1>
+        <p>Enter your details and submti this form to confirm your participation in the trip</p>
+        
+        
+        
+        <!-- <p class="submit_msg">Thanks for submitting your form, we are happy to see you joining us for the london trip</p> -->
+        
+       
+       <br>
+        <form action="formsubmit.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Your Name">
+            <input type="text" name="age" id="age" placeholder="Your Age">
+            <input type="text" name="gender" id="gender" placeholder="Your Gender">
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <input type="phone" name="phone" id="phone" placeholder="Your Phone Number">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Your other information goes here"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
